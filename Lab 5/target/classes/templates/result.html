@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Buddy Info</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>It is entered into the address book</h1>
+<p th:text="'ID: ' + ${buddyinfo.id}"></p>
+<p th:text="'Name: ' + ${buddyinfo.name}"></p>
+<p th:text="'Phone Number: ' + ${buddyinfo.phone_number}"></p>
+<p th:text="'Address: ' + ${buddyinfo.address}"></p>
+<a href="/buddyinfo">Enter more</a>
+</body>
+</html>
